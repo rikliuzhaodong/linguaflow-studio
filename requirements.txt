@@ -1,0 +1,10 @@
+# Qwen3-ASR runtime. Keep this separate from local-asr/requirements-mlx.txt:
+# qwen-asr requires Transformers 4.x, while mlx-lm requires Transformers 5.x.
+fastapi==0.141.1
+huggingface-hub[cli]==0.36.2
+httpx==0.28.1
+jieba==0.42.1
+qwen-asr==0.0.6
+soundfile==0.14.0
+torch==2.14.0
+uvicorn==0.52.4
